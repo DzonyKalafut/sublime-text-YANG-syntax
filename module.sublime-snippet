@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+module ${1:moduleName} {
+	yang-version  ${2:1};
+
+	namespace
+		"${3:namespace}";
+
+	prefix ${1};
+
+	organization "${4:organisation}";
+
+	contact
+		"${5:Name Surname <email@email.com>}";
+
+	description
+		"${6:Description of the module}";
+
+	revision "${7:2014-12-13}";
+}
+]]></content>
+	<tabTrigger>mod</tabTrigger>
+	<scope>source.yang</scope>
+	<description>module</description>
+</snippet>
