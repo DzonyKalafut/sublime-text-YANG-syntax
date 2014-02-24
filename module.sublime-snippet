@@ -6,17 +6,19 @@ module ${1:moduleName} {
 	namespace
 		"${3:namespace}";
 
-	prefix ${1};
+	prefix ${4:${1}};
 
-	organization "${4:organisation}";
+	organization "${5:organisation}";
 
 	contact
-		"${5:Name Surname <email@email.com>}";
+		"${6:Name Surname} <${7:email@email.com}>";
 
 	description
-		"${6:Description of the module}";
+		"${8:Description of the module}";
 
-	revision "${7:2014-12-13}";
+	revision "${9:2014}-${10:01}-${11:13}";
+
+	${12}
 }
 ]]></content>
 	<tabTrigger>mod</tabTrigger>
